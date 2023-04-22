@@ -58,9 +58,10 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <!--<h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <p class="resume-item-copy">{{ job.summary }}</p> -->
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -135,8 +136,8 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
+     <!-- {% if site.resume_section_recognition %}
+       begin Recognition 
       <section class="content-section">
 
         <header class="section-header">
@@ -152,11 +153,11 @@
         {% endfor %}
 
       </section>
-      <!-- end Recognition -->
-      {% endif %}
+       end Recognition 
+      {% endif %} -->
 
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
+     <!-- {% if site.resume_section_associations %}
+      begin Associations 
       <section class="content-section">
 
         <header class="section-header">
@@ -172,8 +173,8 @@
         {% endfor %}
 
       </section>
-      <!-- end Associations -->
-      {% endif %}
+       end Associations
+      {% endif %} -->
 
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
@@ -230,11 +231,6 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
 
     </div>
 
