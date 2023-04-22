@@ -2,15 +2,15 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
+- project: QR CODE GENERATOR
   role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+  duration: 2023 jan &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: This web application generates qr code based uesr input.It will developed Flask python framework. Used libraries - flask,pyqrcode,pillow,pypng. Developed by using - html,python,css,jinja
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: Cateen food buying through online
+  role: Founder & Primary Developer
+  duration: 2022 sep &mdash; Present
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: This web application give acess to order food from cateen.In this Project every user(student) has their account to login or signup. And order their food through online.Presently it is in developing stage. Used libraries - django. Developed by using - html,python,css,SQLite,jinja
